@@ -1,0 +1,284 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1147552,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LambdaGlueBase.java:16"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Verify the service wsdl URL",
+        "description": "",
+        "id": "test-the-soap-web-service;verify-the-service-wsdl-url",
+        "after": [
+          {
+            "result": {
+              "duration": 2426758,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LambdaGlueBase.java:56"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 144608798,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "connect to service wsdl URL",
+            "match": {
+              "location": "SoapService_LiveTest.java:54"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 9162704,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "send request with default http get method",
+            "match": {
+              "location": "SoapService_LiveTest.java:71"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 17705628,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "verify the http response code",
+            "match": {
+              "location": "SoapService_LiveTest.java:85"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 170920,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LambdaGlueBase.java:16"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "Verify the service port",
+        "description": "",
+        "id": "test-the-soap-web-service;verify-the-service-port",
+        "after": [
+          {
+            "result": {
+              "duration": 70447,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LambdaGlueBase.java:56"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 98164,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "connect to service wsdl URL",
+            "match": {
+              "location": "SoapService_LiveTest.java:54"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 356496214,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "get the service interface",
+            "match": {
+              "location": "SoapService_LiveTest.java:97"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 56974,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "verify the service port Interface",
+            "match": {
+              "location": "SoapService_LiveTest.java:103"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 150132,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LambdaGlueBase.java:16"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "verify the service operation getName",
+        "description": "",
+        "id": "test-the-soap-web-service;verify-the-service-operation-getname",
+        "after": [
+          {
+            "result": {
+              "duration": 60823,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LambdaGlueBase.java:56"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 90080,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "connect to service wsdl URL",
+            "match": {
+              "location": "SoapService_LiveTest.java:54"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 31641006,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "get the service interface",
+            "match": {
+              "location": "SoapService_LiveTest.java:97"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 34257932,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "invoke the getName operation and verify the output",
+            "match": {
+              "location": "SoapService_LiveTest.java:107"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 168996,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LambdaGlueBase.java:16"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "verify the service operation readMarks",
+        "description": "",
+        "id": "test-the-soap-web-service;verify-the-service-operation-readmarks",
+        "after": [
+          {
+            "result": {
+              "duration": 75836,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LambdaGlueBase.java:56"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 118951,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "connect to service wsdl URL",
+            "match": {
+              "location": "SoapService_LiveTest.java:54"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 45941706,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "get the service interface",
+            "match": {
+              "location": "SoapService_LiveTest.java:97"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 18114066,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "invoke the readMarks operation and verify the output",
+            "match": {
+              "location": "SoapService_LiveTest.java:114"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Test the Soap Web Service",
+    "description": "",
+    "id": "test-the-soap-web-service",
+    "keyword": "Feature",
+    "uri": "SoapService-Test.feature"
+  }
+]
